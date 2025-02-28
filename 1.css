@@ -1,0 +1,62 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact-text {
+    font-size: 16px;
+    color: #222;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.contact-text a {
+    color: #007BFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-text a:hover {
+    text-decoration: underline;
+}
